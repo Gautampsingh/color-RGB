@@ -1,0 +1,115 @@
+.container {
+  width: 600px;
+  height: 200px;
+  margin: 20px auto;
+}
+body {
+  background-color: #232323;
+  font-family: "Montserrat", "Avenir";
+  text-transform: uppercase;
+}
+.square {
+  width: 30%;
+  background-color: purple;
+  height: 75%;
+  float: left;
+  margin: 1%;
+  transition: all 0.7s;
+  -webkit-transition: all 0.7s;
+  -moz-transition: all 0.7s;
+  border-radius: 10%;
+  outline: none;
+  border: none;
+}
+body {
+  margin: 0px;
+}
+
+h2,
+h3 {
+  color: white;
+  margin: 0px;
+  font-weight: normal;
+}
+
+h2 {
+  padding: 15px 0;
+}
+
+#h4 {
+  display: inline-block;
+  width: 30%;
+}
+
+.thisisnav {
+  background-color: white;
+  height: 3vw;
+  text-align: center;
+}
+
+#decider {
+  background-color: white;
+}
+
+.selected {
+  background-color: steelblue;
+  color: white;
+}
+
+#topcontainer {
+  background-color: steelblue;
+  margin-bottom: 0px;
+  text-align: center;
+  height: 160px;
+  line-height: 1;
+  font-weight: normal;
+}
+
+#decideid {
+  font-size: 160%;
+}
+button {
+  height: 100%;
+  border: none;
+  background: none;
+  font-weight: 750;
+  color: steelblue;
+  letter-spacing: 1px;
+  font-size: inherit;
+  outline: none;
+}
+button:hover {
+  background-color: steelblue;
+  color: white;
+  transition: all 0.35s;
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+}
+#decider:hover {
+  background-color: steelblue;
+  color: white;
+}
+#bottom {
+  position: fixed;
+  text-align: center;
+  bottom: 0px;
+  height: 5%;
+  width: 30%;
+  left: 35%;
+  background-color: steelblue;
+}
+table {
+  color: white;
+  font-weight: 500;
+  letter-spacing: 1.1px;
+  width: 100%;
+  height: 100%;
+  font-size: inherit;
+  transition: all 0.6s;
+  border: 1px solid white;
+  border-bottom: none;
+}
+
+#moving {
+  color: white;
+}
